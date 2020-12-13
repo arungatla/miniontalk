@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("/images/minion1.jpg");
+    background-repeat:none;
+    background-position: center;
+    height:100vh;
+    background-size: cover;
+    overflow: hidden;
+
+}
+h1{
+    background-color:#F4DD4B;
+    width:30%;
+    color:#115695;
+    padding: 1em 1em 1em 4em;
+    margin-left: .5em;
+    margin-top: .5em;
+
+}
+img{
+    display: inline;
+    height: 60px;
+    width: 60px;
+
+}
+.btclass{
+    padding-left: 19%;
+
+}
+button{
+    background-color: #F4DD4B;
+    padding: 1em;
+    border-radius: 5px;
+}
+textarea {
+    width:37%;
+    height: 10vh;
+    display: black;
+    margin: 2rem;
+    padding: 1rem;
+    border: 3px solid #115695;
+    font-size:15px;
+}
+#output {
+    border: 3px solid #115695;
+    height: 10vh;
+    width: 37%;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 19px;
+}
+@media(max-width:750px){
+    h1{
+        padding-left: 33px;
+        margin: 1.5rem;
+        width:37%;
+    }
+}
+@media(max-width:600px){
+    h1{
+        padding-left: 20px;
+        margin: .5em;
+    }
+    textarea{
+        margin: 1.5em;
+    }
+    #output{
+        margin: 1.3em;
+    }
+    button{
+        padding: .5em;
+    }
+}
+@media(max-width:880px){
+    h1{
+        padding-left:1.5em;
+        width: 40%;
+        
+    }
+    img{
+        width:17%;
+        height:17%;
+    }
+}
